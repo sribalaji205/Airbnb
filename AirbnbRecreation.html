@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Airbnb</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll {
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scroll a:hover {
+  background-color: #777;
+  border-radius:25px
+}
+a.bord{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+}
+section.col{
+
+display:flex; 
+flex-flow=column-wrap;
+margin:15px
+}
+p#head{
+text-align:center;
+padding:25px;
+margin-top:0;
+margin-bottom:0;
+background-color:lightgrey;
+}
+section#underline{
+  background-color:white;
+  overflow: auto;
+  font-size:20px;
+  white-space: nowrap;
+}
+
+section#underline a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+   padding:14px;
+  text-decoration: none;
+}
+
+section#underline a:hover {
+  text-decoration:underline;
+}
+div.abc{
+  overflow: auto;
+  font-size:20px;
+  white-space: nowrap;
+
+}
+
+div.abc a {
+  display: inline-block;
+  padding:14px;
+  text-decoration: none;
+  content:400px,366px;
+}
+div.abc img{
+  width:400px;
+  height:266px;
+  border-radius:25px;  
+}
+div.id{
+font-size:300%;
+color:hotpink;
+border:50%;
+}
+section.bac {
+  overflow: auto;
+  display:flex;
+flex-flow:column-wrap;
+  white-space: nowrap;
+}
+
+section.bac a {
+  display: inline-block;
+  color: black;
+  text-align:none;
+  background-color:lightgrey;
+  padding: 14px;
+  text-decoration: none;
+border-radius:15px;
+}
+
+section.bac a:hover {
+  background-color: #777;
+  border-radius:25px;
+}
+section.bac div a{
+font-size:100%;
+margin-left:650px;
+margin-top:20px;
+}
+main.qwer{
+  overflow: auto;
+  font-size:20px;
+  white-space: nowrap;
+
+}
+
+main.qwer a {
+  display: inline-block;
+  padding:14px;
+  text-decoration: none;
+  content:400px,366px;
+}
+main.qwer img{
+  border-radius:25px;  
+}
+
+
+section.vect article main{
+  overflow: auto;
+  font-size:20px;
+  display:flex;
+  flex-flow:row wrap;
+  white-space: nowrap;
+
+}
+
+section.vect a{
+  display: inline-block;
+  padding:14px;
+  text-decoration: none;
+  content:400px,366px;
+}
+section.vect img{
+  border-radius:25px;  
+}
+
+section.sri {
+  overflow: auto;
+  font-size:20px;
+  display:flex;
+  flex-flow:column-wrap;
+  white-space: nowrap;
+
+}
+
+section.sri article{
+ 
+  display: inline-block;
+  padding:14px;
+  text-decoration: none;
+  content:400px,366px;
+  margin-left:50px;
+}
+section.sri img{
+  border-radius:25px;  
+}
+section#bark
+{
+margin-top:45px;
+color:white;
+background-color:black;
+}
+
+
+section.bax  {
+background-color: #fff;
+  overflow: auto;
+  display:flex;
+  flex-flow:row wrap;
+  white-space: nowrap;
+}
+
+section.bax a {
+  display: inline-block;
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-left:40px;
+}
+
+section.bax a:hover {
+  background-color: #777;
+  border-radius:25px
+}
+
+section.buy  {
+background-color: #fff;
+  overflow: auto;
+  display:flex;
+  flex-flow:row wrap;
+  white-space: nowrap;
+}
+
+section.buy a {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-left:40px;
+}
+
+section.buy a:hover{
+  border-radius:25px
+}
+
+main.tuy {
+  background-color:white;
+  overflow: auto;
+  display:flex;
+  flex-flow:column-wrap;
+  white-space: nowrap;
+  margin-left:90px;
+  margin-top:40px;
+}
+
+main.tuy section {
+  display: inline-block;
+  color: black;
+ 
+  background-color:white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-left:40px;
+}
+main.tuy a:hover{
+text-decoration:underline;
+}
+div.fuk {
+  overflow: auto;
+  display:flex;
+  flex-flow:row wrap;
+  white-space: nowrap;
+  
+}
+
+div.fuk a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-left:90px;
+  margin-top:10px;
+}
+div.fuk a:hover{
+text-decoration:underline;
+}
+
+
+article.nut {
+  background-color:lightgrey;
+  overflow: auto;
+  display:flex;
+  flex-flow:column-wrap;
+  white-space: nowrap;
+ 
+}
+
+article.nut div {
+  display: inline-block;
+  color: black;
+  font-size:120%;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+   margin-left:90px;
+  margin-top:40px;
+}
+</style>
+<head>
+<body>
+<header>
+<p id="head">
+Get the latest on our COVID-19 response and cancellation policies.<a href="https://www.airbnb.co.in/resources/hosting-homes/t/coronavirus-updates-34">Learn more</a>
+</p>
+</header>
+<section class="col">
+<img style="height:50px;width:50px;" src="https://cdn.worldvectorlogo.com/logos/airbnb-1.svg" alt="airbnb"></img>
+<p style="font-size:20px;color:#FF69B4;"><strong>Airbnb</strong></p>
+<div class="scroll" style="margin-left:50%">
+<a href="https://www.airbnb.co.in/host/homes">Host your Home</a>
+<a href="https://www.airbnb.co.in/d/onlinehost">host an experience</a>
+<a href="">Help</a>
+<a href="https://www.airbnb.co.in/login">Login</a>
+<a class="bord" href="">Signup</a>
+</div>
+</section>
+<section id="underline">
+<a href="">Places to stay</a>
+<a href="">Experiences</a>
+<a href="https://www.airbnb.co.in/s/experiences/online">Online Experiences</a>
+</section>
+
+
+<div class="id">
+<p>
+We may be apart, but we'll get through this together.
+</p>
+</div>
+
+<div class="abc">
+<a href="https://www.airbnb.co.in/s/experiences/online"><figure style="margin:0">
+  <img src="https://a0.muscache.com/im/pictures/7ee8ad00-0480-4b75-843f-1d2e4c01dde6.jpg?im_w=320" alt="img">
+  <figcaption style="text-align:center"><strong>Online Experiences</strong>
+</figcaption>
+</figure>
+</img></a>
+<a href="https://www.airbnb.co.in/d/covid19relief"><figure style="margin:0">
+  <img  src="https://a0.muscache.com/im/pictures/630fcb0e-4beb-4cc8-a5dd-a4b7488dc96c.jpg?im_w=320" alt="img">
+  <figcaption style="text-align:center">
+  <strong>Frontline Stays</strong>
+  </figcaption>
+</figure>
+</img></a>
+<a href="https://www.airbnb.co.in/resources/hosting-homes/t/coronavirus-updates-34"><figure style="margin:0">
+  <img  src="https://a0.muscache.com/im/pictures/652b1058-209f-45f7-8383-f3e4d90ee302.jpg?im_w=320" alt="img">
+  <figcaption style="text-align:center">
+  <strong>Latest Updates</strong></figcaption>
+</figure>
+</img></a>
+</div>
+<section id="bark">
+<section class="bac">
+<div>
+<p ><strong style="font-size:200%;  color:white;">Introducing Online Experiences:</strong>
+<br>Now you can meet people all over the world while trying something  
+<br>new.Join live, interactive video sessions led by expert hosts 
+<br>– all without leaving home.
+</p>
+</div>
+<div>
+<a href="https://www.airbnb.co.in/s/experiences?click_referer=t%3ASEE_ALL%7Csid%3A4202c308-6288-4be0-be91-415d1ed7e273&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&last_search_session_id=4202c308-6288-4be0-be91-415d1ed7e273&search_type=unknown">Explore All</a>
+</div>
+</section>
+
+<section class="sri">
+<article>
+<a padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px; href="https://www.airbnb.co.in/experiences/1652939">
+  <img style="width:470px;height:470px;margin-top:40px;  " src="https://a0.muscache.com/im/pictures/0049c173-7313-42c5-9330-543ed4cb8d7d.jpg?im_w=480" alt="img">
+  <figcaption style="color:white;">
+  Mix secret sangria with Pedro from
+  Lisbon</figcaption>
+</figure>
+</img>
+</a>
+</article>
+<section class="vect">
+  <article>
+  <main class="qwer">
+<a  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px; href="https://www.airbnb.co.in/experiences/1658424">
+  <img style="width:224px;height:224px; " src="https://a0.muscache.com/im/pictures/5bf46c77-4312-41b6-b9ad-66db5bbadd27.jpg?im_w=320" alt="img">
+  <figcaption style="color:white;">
+  Stretch.Breathe.Relax.<br>Yoga class with friends</figcaption>
+</figure>
+</img>
+</a>
+
+<a padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px; href="https://www.airbnb.co.in/experiences/673724">
+  <img style="width:224px;height:224px;  " src="https://a0.muscache.com/im/pictures/5bd2705a-a565-426e-b928-f2a2b581e717.jpg?im_w=320" alt="img">
+  <figcaption style="color:white;">Meditate to music with Janice.<br>
+   Be happy!
+ </figcaption>
+</figure>
+</img>
+</a>
+  </main>
+<main>
+<a padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px; href="https://www.airbnb.co.in/experiences/1659111">
+  <img style="width:448px;height:224px ; " src="https://a0.muscache.com/im/pictures/af46112a-b342-45bb-89b0-57fce44e110c.jpg?im_w=480" alt="img">
+  <figcaption style="color:white;">
+ Support African penguins by drawing with Jons</figcaption>
+</figure>
+</img>
+</a>
+</main>
+</section>
+</article>
+</section>
+</section>
+
+
+
+<section class="bax"
+<main>
+<article class="jik">
+<div>
+<p style="font-size:230%; margin-left:40px;">
+<strong>Host a hero: help us house <br>frontline, responders around<br> the world</strong>
+</p>
+</div>
+<div>
+<a style="padding:14px;border-radius:15px;" href="https://www.airbnb.co.in/d/covid19relief">Get Involved</a>
+</div>
+</article>
+</main>
+
+<main style="font-size:130%; margin-top:50px;margin-left:120px">
+With frontline stays, Airbnb is partnering with our hosts <br>to connect 100,000 healthcare providers, relief workers,<br> and first responders with clean places to stay that allow<br> them to be close to their patients – and safely <br>distanced from their own families.
+</main>
+</section>
+
+<main class="tuy">
+<section class="buy">
+<div>
+<p style="font-size:130%;">
+For Guests
+</p>
+</div>
+<br>
+<div>
+<a href="https://www.airbnb.co.in/resources/hosting-homes/t/coronavirus-updates-34"><strong>Updates for Travels</strong><br>
+           What you should know</a><br>
+<a href="https://www.airbnb.co.in/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19"><strong>Cancellation options</strong><br>
+           Learn what's covered</a><br>
+<a href="https://www.airbnb.co.in/help/home"><strong>Help centre</strong><br>
+           Get support</a><br> 
+</div>
+</section>
+
+<section class="buy">
+<div>
+<p style="font-size:130%;">
+For Hosts
+</p>
+</div>
+<br>
+<div>
+<a href="https://www.airbnb.co.in/resources/hosting-homes/t/ceo-updates-35"><strong>Message from Brian Chesky</strong><br>
+           Hear from our CEO</a><br>
+<a href="https://www.airbnb.co.in/resources/hosting-homes/t/coronavirus-updates-34"><strong>Resources from hosting</strong><br>
+           Whats affected by covid-19</a><br>
+<a href="https://www.airbnb.co.in/d/covid19relief"><strong>Providing frontline stays</strong> <br>
+           Learn how to help</a><br>
+</div>
+</section>
+
+<section class="buy">
+<div>
+<p style="font-size:130%;">
+For Covid-19 responder
+</p>
+</div>
+<br>
+<div>
+<a href="https://www.airbnb.co.in/d/covid19relief"><strong>Frontline Stays</strong><br>
+           Learn about our programme</a><br>
+<a href="https://www.airbnb.co.in/covid19relief-guests"><strong>Sign up</strong><br>
+           Check for housing options</a><br>
+<a href="https://www.airbnb.co.in/d/covid19relief?donate"><strong>Make a donation</strong><br>
+           Support non-profit organisations</a><br>
+</div>
+</section>
+ </main>
+<p style="font-size:150%;"><strong>Destination for future trips</strong></p>
+
+<article class="nut">
+<div class="fuk">
+<a href="https://www.airbnb.co.in/s/San-Francisco--CA"><strong>San Francisco</strong></a><br>
+<a href="https://www.airbnb.co.in/s/New-York--NY"><strong>New York</strong></a><br>
+<a href="https://www.airbnb.co.in/s/Los-Angeles--CA"><strong>Los Angeles</a></strong><br>
+</div>
+<div class="fuk">
+
+<a href="https://www.airbnb.co.in/s/Boston--MA"><strong>Boston</a></strong><br>
+<a href="https://www.airbnb.co.in/s/Miami--FL"><strong>Miami</a></strong><br>
+<a href="https://www.airbnb.co.in/s/Phoenix--AZ"><strong>Phoenix</strong></a><br>
+</div>
+<div class="fuk">
+<a href="https://www.airbnb.co.in/s/Washington--DC"><strong>Washington DC</strong></a><br>
+<a href="https://www.airbnb.co.in/s/Austin--TX"><strong>Austin</a></strong><br>
+<a href="https://www.airbnb.co.in/s/Seattle--WA"><strong>Seattle</a></strong><br>
+</div>
+</article>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
